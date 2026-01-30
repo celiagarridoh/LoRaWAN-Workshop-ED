@@ -49,7 +49,7 @@ Integración final del sistema de monitorización con la **red LoRaWAN**, median
 README.md
 LICENSE-CODE.txt
 LICENSE-MATERIAL.txt
-├── Proyectos ALU
+├── Proyectos
 │   ├── Proyecto1_Monitorizacion_Serie_LED
 │   │   ├── main.cpp
 │   │   └── platformio.ini
@@ -96,8 +96,8 @@ LICENSE-MATERIAL.txt
 - Luis Roda Sánchez (Universidad de Castilla-La Mancha)  
 
 ## 🏫 Afiliaciones
-- Escuela Técnica Superior de Ingeniería Industrial de Albacete  
-  Departamento de Ingeniería Eléctrica, Electrónica, Automática y Comunicaciones  
+- Escuela Técnica Superior de Ingeniería Industrial de Albacete
+- Departamento de Ingeniería Eléctrica, Electrónica, Automática y Comunicaciones  
 - Universidad de Castilla-La Mancha  
 - Grupo de Electrónica Aplicada, Procesado de Datos, IoT y Comunicaciones Avanzadas
 
