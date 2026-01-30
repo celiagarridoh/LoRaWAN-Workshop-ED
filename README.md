@@ -1,10 +1,7 @@
-## Workshop  
+## Workshop de introducción al diseño de end devices LoRaWAN 
 **Introducción al diseño de end devices LoRaWAN** (enmarcado en el proyecto **📌 UniLAB 4.0: Smart Energy para Escuelas del Futuro** - IES Universidad Laboral de Albacete en colaboración con Universidad de Castilla-La Mancha)
 
 ---
-
-## 📌 Proyecto
-**UniLAB 4.0: Smart Energy para Escuelas del Futuro**
 
 ## 🧠 Descripción del workshop
 Este workshop introduce el **diseño y desarrollo de un end device LoRaWAN Clase A**, empleando una **MCU Heltec LoRa 32 v3.2 (ESP32-S3)**.  
