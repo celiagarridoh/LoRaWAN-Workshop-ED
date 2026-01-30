@@ -45,6 +45,8 @@ Integración final del sistema de monitorización con la **red LoRaWAN**, median
 
 ## 📁 Estructura del repositorio
 
+[Accesso al material](https://pruebasaluuclm-my.sharepoint.com/:b:/g/personal/celia_garrido_uclm_es/IQADrQvaTMQ0Q4KSYAmJEr6WAWt5F8CrayZsa3bMWCxrH3E?e=n98ru5)
+
 ```
 README.md
 LICENSE-CODE.txt
