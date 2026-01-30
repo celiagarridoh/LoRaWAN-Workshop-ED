@@ -98,9 +98,9 @@ LICENSE-MATERIAL.txt
 ## 🏫 Afiliaciones
 - Escuela Técnica Superior de Ingeniería Industrial de Albacete
 - Departamento de Ingeniería Eléctrica, Electrónica, Automática y Comunicaciones  
-- Universidad de Castilla-La Mancha  
 - Grupo de Electrónica Aplicada, Procesado de Datos, IoT y Comunicaciones Avanzadas
-
+- Instituto de Investigación en Informática de Albacete
+- Universidad de Castilla-La Mancha  
 
 ---
 
