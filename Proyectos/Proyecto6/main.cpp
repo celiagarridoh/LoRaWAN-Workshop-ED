@@ -124,7 +124,7 @@ static void prepareTxFrame( uint8_t port )
   appData[1] = 0x01;
   appData[2] = 0x02;
   appData[3] = 0x03;
-	appData[4] = 0x04;
+  appData[4] = 0x04;
 
 }
 // Variables LoRaWAN.
@@ -132,6 +132,7 @@ static void prepareTxFrame( uint8_t port )
 
 void setup() {
   Serial.begin(115200);
+
   delay(500);
   dht.begin();
 
@@ -162,9 +163,11 @@ switch( deviceState )
 	{
 		case DEVICE_STATE_INIT:
 		{
-	    LoRaWAN.init(loraWanClass,loraWanRegion);
+	    	LoRaWAN.init(loraWanClass,loraWanRegion);
 			//both set join DR and DR when ADR off 
 			LoRaWAN.????(????);
+	  		deviceState = DEVICE_STATE_JOIN;
+
 			break;
 		}
 		case DEVICE_STATE_JOIN:
@@ -232,7 +235,6 @@ void mostrar_display(void){
   display_oled.drawRect(LINEA_VERTICAL_1, LINEA_HORIZONTAL_4, 50, 10); // x, y, anchura, altura
   display_oled.fillRect(LINEA_VERTICAL_1+1, LINEA_HORIZONTAL_4+1, temperatura, 8); // relleno de la barra (omitiendo primer y último pixel)
 
-
   display_oled.setTextAlignment(TEXT_ALIGN_LEFT);
   display_oled.drawString(LINEA_VERTICAL_3, LINEA_HORIZONTAL_2, "H = " + String(humedad) + "%"); 
   display_oled.drawString(LINEA_VERTICAL_3, LINEA_HORIZONTAL_3, "0%"); 
@@ -247,6 +249,7 @@ void mostrar_display(void){
 
   delay(20);
 }
+
 
 
 
