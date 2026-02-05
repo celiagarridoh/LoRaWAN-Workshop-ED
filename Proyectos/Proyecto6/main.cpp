@@ -180,6 +180,11 @@ switch( deviceState )
 			prepareTxFrame( ???? );
 			LoRaWAN.????();
 			deviceState = DEVICE_STATE_CYCLE;
+			digitalWrite(LED_PIN, ????);
+  			delay(500);
+  			digitalWrite(LED_PIN, ????);
+  			delay(500);
+			
 			break;
 		}
 		case DEVICE_STATE_CYCLE:
@@ -202,13 +207,7 @@ switch( deviceState )
 		}
 	}
 
-  digitalWrite(LED_PIN, ????);
-  delay(1000);
-
-  digitalWrite(LED_PIN, ????);
-  delay(1000);
-
-  delay (15000);
+  //delay (15000);
 }
 
 void ????(void){
@@ -249,6 +248,7 @@ void mostrar_display(void){
 
   delay(20);
 }
+
 
 
 
